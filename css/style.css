@@ -476,7 +476,7 @@ body {
   line-height: 52px;
   color: #242121;
   margin-bottom: 10px;
-  max-width: 595px;
+  max-width: 590px;
   display: inline-block;
   text-transform: uppercase;
 }
@@ -486,7 +486,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #373A39;
-  max-width: 430px;
+  max-width: 460px;
 }
 
 .slider-blog__item {
@@ -627,4 +627,14 @@ ul.pricing__item {
   letter-spacing: 1.2px;
   color: #242121;
   display: block;
+}
+
+.clients {
+  padding: 70px 0 95px;
+}
+
+.clietns__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
