@@ -52,6 +52,10 @@ a {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 /* font-family: 'Merriweather', serif; */
 /* font-family: 'Montserrat', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
@@ -644,7 +648,7 @@ ul.pricing__item {
   background-image: url('../images/map.jpg');
   background-repeat: no-repeat;
   background-size: 40%;
-  background-position: right center;
+  background-position: right 100%;
 }
 
 .connection__title {
@@ -697,4 +701,62 @@ ul.pricing__item {
   background-color: #242121;
   cursor: pointer;
   margin-top: 40px;
+}
+
+.footer__top {
+  padding: 110px 10px 60px;
+  background-color: #333333;
+  text-align: center;
+}
+
+.footer__logo {
+  display: inline-block;
+  padding: 0 35px 4px;
+  border-bottom: 2px solid #FCBB08;
+  margin-bottom: 70px;
+}
+
+ul.footer__social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+
+.footer__social-list {
+  padding: 0 15px;
+}
+
+.footer__social-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 4px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.footer__contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+.footer__contact a {
+  display: block;
+  margin: 10px 0;
+  color: #FFFFFF;
+}
+
+.go-top {
+  display: inline-block;
+}
+
+.footer__copy {
+  padding: 40px 660px 40px;
+  background-color: #2A2C2B;
+  color: #CCCCCC;
+  text-align: center;
 }
